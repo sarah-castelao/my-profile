@@ -1,0 +1,124 @@
+/*colors and fonts*/
+
+body {
+ background-image: url(https://cdn.manomano.com/papier-peint-intisse-bois-blanc-10-m-x-52-cm-P-68187-7431784_1.jpg);
+ color: rgb(140, 144, 144);
+ font-family: 'Lora', serif;
+ font-size: 17px;
+ text-align: center;
+}
+
+h1, h2, h3{
+text-align: center;
+font-family: 'Molle', cursive;
+}
+
+h1 {
+color: #8ac6d1;
+font-size: 30px;
+font-weight: 700px; 
+}
+
+h2 {
+color: #8ac6d1;
+font-size: 25px;
+font-weight: 600;
+}
+
+h3 {
+color: #fff8f3;
+font-size: 25px;
+font-weight: 600;
+}
+
+a{
+  color: white;
+  font-size: 35px;
+}
+a:hover {
+	color: rgb( 244, 87, 156 );
+	font-size: 40px;
+}
+#Photoprofile {
+	width: 200px;
+	border-radius: 50%;
+	text-align: center;
+	image-orientation: 90deg flip;
+	box-shadow: 5px 5px 3px #eb5160;
+}
+
+/*Appliquer Taille/ marge du groupement de divisions */
+.container{
+	width: 980px;
+	margin: 40px auto;
+}
+
+/*Changerla taille de ce groupement pour tablettes/ smartphones */
+@media (max-width:500px ) {
+ .container {
+ 	width: 400px; }
+}
+
+.divisions{
+	background: #fff8f3;
+	margin: 70px;
+	padding: 30px 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+	border-radius:6px;
+
+}
+.lastdivision{
+	background: #8ac6d1;
+	margin: 70px;
+	padding: 30px 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+	border-radius:6px;
+	color: #fff8f3
+
+}
+
+.tourne {
+  transform: rotate(20deg);
+  background-color: pink;
+  height: 200px;
+  width: 180px;
+  }
+
+.tourne2 {
+  transform: rotate(350deg);
+  background-color: pink;
+  height: 200px;
+  width: 180px;
+  }
+
+.container {
+	width: 800px;
+	margin: 40px auto ;
+}
+
+.list-horizontal {
+list-style: none;
+padding-left: 0px;
+}
+.list-horizontal li{
+display:inline;
+padding: 10px;
+}
+
+.btn-blue{
+	background-color: #BFEDEC;
+	color:white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	text-decoration: none;
+	font-weight: 600px;
+	font-size: 16px;
+}
+.btn-blue:hover {
+	color: white;
+	font-size: 18px;
+}
+
+#Introduction p{
+margin-bottom: 40px
+}
